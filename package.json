@@ -1,0 +1,23 @@
+{
+  "name": "dewl-temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psanchez27/dewl-temp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psanchez27/dewl-temp/issues"
+  },
+  "homepage": "https://github.com/psanchez27/dewl-temp#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
