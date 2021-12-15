@@ -29,6 +29,12 @@ $font-2: 'Raleway', sans-serif;
 body {
   font-family: $font-2;
   height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  color: #fff;
 }
 .container {
   width: 80%;
@@ -47,6 +53,20 @@ body {
 
 #main-title {
   font-family: $font-1;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   margin: 1rem;
+}
+
+@media (max-width: 780px) {
+  #main-title {
+    span {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #main-title {
+    font-size: 3rem;
+  }
 }
