@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Raleway:ital,wght@0,300;0,400;1,100&display=swap");
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100vh; }
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%; }
+  .container h2 {
+    font-size: 2rem; }
+
+#main-title {
+  font-family: "Birthstone Bounce", cursive;
+  font-size: 3.5rem;
+  margin: 1rem; }
